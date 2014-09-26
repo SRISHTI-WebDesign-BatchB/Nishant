@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+  <script type="text/javascript" src="jquery.min.js"> </script>
+  <script src="js/bootstrap.js"> </script>
+
+
+</head>
+<body>
+
+  <div class="navbar-default navbar-fixed-top">
+ <div class= "container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+       </button>
+       <A HREF="web1" class="navbar-brand"> In & Out</A>
+   </div>
+ 
+   <div class="navbar-collapse collapse">
+   
+     <ul class="nav navbar-nav">
+      <li><a href="#"> Blog </a></li>
+      <li><a href="#"> News </a></li>
+      <li><a href="#"> Forum </a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Search <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+          <li><a href="#"> By Player Name</a></li>
+          <li><a href="#"> By League</a></li>
+          <li><a href="#"> By Club</a></li>
+          <li><a href="#"> By Nationality</a></li>
+         </ul>
+      </li>
+      <li><a href="#"> Twitter </a></li>
+      <li><a href="#"> About </a></li>
+       
+    </ul>
+     <li type="button" class="btn btn-default  navbar-btn navbar-right"><a href="#">Sign In</a></li>
+   </div>
+ </div>
+</div>
+
+
+<br/><br/><br/>
+
+<form class="well span6">
+<label>Username</label>
+<input type="text" class "span3" placeholder="Username..." /></br>
+<label>Password</label>
+<input type="text" class "span3" placeholder="Password..." /> </br><br/>
+<button class="btn btn-primary">Submit</button>
+<button class="btn">Clear</button>
+
+</form>
+
+
+</body>
+</html>﻿

@@ -1,0 +1,54 @@
+#maincontainer {
+  height: 100%;
+  display: table
+}
+
+#mainrow {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.centering {
+  float: none;
+  margin: 0 auto;
+}
+
+#mainjumbo {
+  background-color: #fff;
+  text-align: center;
+}
+
+#amainjumbo img {
+  width: 50%;
+  margin-bottom: 45em;
+}
+
+.btn, input {
+  -webkit-border-radius: 0 ;
+     -moz-border-radius: 0 ;
+          border-radius: 0 ;
+}
+
+.thumbnail {
+  border: 0px;
+}
+
+
+#row1  {
+margin-bottom: 10em;
+margin-top: -40em;
+margin-right: 60em;
+
+
+}
+
+#row2  {
+
+margin-right: 10em;
+margin-left: 10em;
+margin-top: -10em;
+margin-bottom: 10em;
+
+
+}
